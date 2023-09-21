@@ -1,6 +1,6 @@
 export function Logo() {
   return (
-    <strong className="flex mx-1 items-center gap-2 text-xl font-semibold text-zinc-900">
+    <strong className="mx-1 flex items-center gap-2 text-xl font-semibold text-zinc-900">
       <svg
         width={38}
         height={38}
@@ -48,7 +48,12 @@ export function Logo() {
               fill="#D0D5DD"
             />
             <g filter="url(#filter1_dd_4857_307)">
-              <circle cx={19} cy={18} r={8} fill="url(#paint1_linear_4857_307)" />
+              <circle
+                cx={19}
+                cy={18}
+                r={8}
+                fill="url(#paint1_linear_4857_307)"
+              />
             </g>
             <g filter="url(#filter2_b_4857_307)">
               <path
@@ -200,7 +205,5 @@ export function Logo() {
       </svg>
       <span>Untitled UI</span>
     </strong>
-
   )
 }
-
